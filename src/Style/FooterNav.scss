@@ -1,0 +1,36 @@
+.footernav-container{
+    .cont{
+        float: right;
+        margin-top: 20px;
+        height: 140px;
+        width: 600px;
+        margin-bottom: 10px;
+    }
+    .cont-left{
+        width: 30%;
+        float: left;
+    }
+    .cont-right{
+        width: 70%;
+        float: right;
+    }
+    .cont-right ul{
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .cont-right ul li{
+        float: left;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    .cont-right ul li:hover{
+        color: #d6623d;
+    }
+    .cont-right p{
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 80px;
+        color:#656565;
+    }
+}

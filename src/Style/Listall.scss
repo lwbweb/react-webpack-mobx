@@ -1,0 +1,70 @@
+.listall-container{
+    .tj{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .tj h2{
+        width: 825px;
+        height: 45px;
+        background:#f7f7f7;
+        font-size: 28px;
+        color:#d6623d;
+        line-height: 45px;
+        padding-left: 10px; 
+    }
+    .tj p{
+        width: 825px;
+        font-size: 14px;
+        line-height: 30px;
+        text-indent: 20px;
+        margin-top: 5px;
+    }
+    .lb{
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        border-bottom: 3px dashed #D6D6D6;
+        height: 160px;
+    }
+    .lbtp{
+        float: left;
+    }
+    .lbtp img{
+        float: left;
+        width: 182px;
+        height: 110px;
+    }
+    .lbtp img:hover{
+        -webkit-transform: scale(1.1,1.1);
+    }
+    .lbjs{
+        float: right;
+        width: 613px;
+        margin-left: 10px;
+    }
+    .lbjs h2{
+        width:613px;
+        height: 20px;
+        line-height: 18px;
+        color: black;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .lbjs span{
+        width: 613px;
+        font-size: 12px;
+        padding-left: 20px;
+        color: #464646;
+        padding-top: 3px;
+    }
+    .lbjs p{
+        width:613px;
+        font-size: 14px;
+        line-height: 30px;
+        padding-left: 10px;
+        padding-top: 3px;
+        text-indent: 29px;
+    }
+}

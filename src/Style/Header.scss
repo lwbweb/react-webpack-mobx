@@ -1,0 +1,29 @@
+.header-container{
+	.lwbhead{
+	    width:1250px;
+	    margin: 0 auto;
+	}
+	.logo{
+	    float: left;
+	}
+	.lwbnav{
+	    height: 40px;
+	    float: left;
+	}
+	.lwbnav ul{
+	    width: 575px;
+	    margin-top: 67px;
+	}
+	.lwbnav ul li{
+	    font-size: 26px;
+	    list-style: none;
+	    float: left;
+	    margin-left: 50px; 
+	}
+	.lwbnav ul a{
+	    color: #656565;
+	}
+	.lwbnav ul li:hover{
+	    color: red; 
+	}
+}

@@ -1,0 +1,30 @@
+.container{
+	*{
+	    margin:0;
+	    padding:0;
+	}
+	a{text-decoration: none;color:#656565;}
+	ul li{list-style: none;}
+	body{
+	    font-family: "Microsoft YaHei","冬青黑体简体中文 w3";
+	    font-size:13px;
+	    background: #f8f8f8;
+	    color: #656565；
+	}
+	.main{
+	    position: relative;
+	    width: 1250px;
+	    height: 1930px;
+	    background: white;
+	    margin:0 auto;
+	    border: 1px solid #ececec;
+	}
+	.main-left{
+	    width: 825px;
+	    float: left;
+	}
+	.main-right{
+	    width:350px;
+	    float:right;
+	}
+}

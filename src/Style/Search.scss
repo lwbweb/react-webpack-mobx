@@ -1,0 +1,83 @@
+.search-container{
+    .seach{
+        width:325px;
+        padding-top: 21px;
+    }
+    .seach input{
+        width:244px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .seach button{
+        width: 60px;
+        height: 48px;
+        font-size: 20px;
+    }
+    .gjc{
+        width: 325px;
+        margin-top: 30px;
+    }
+    .gjc p{
+        font-size: 24px;
+        color: #d6623d;
+    }
+    .gjc ul{
+        width:320px;
+    }
+    .gjc ul li{
+        float: left;
+        width: auto;
+        font-size: 28px;
+        text-align: center;
+        border:1px dashed #f1f1f1;
+        margin-left: 40px;
+        margin-top: 20px;
+        color: #666;
+    }
+    .gjc ul li:hover{
+        color: #d6623d;
+    }
+    .rpwz{
+        position: relative;
+        margin-top: 50px;
+        width: 325px;
+    }
+    .rpwz p{
+        width: 100px;
+        height: 30px;
+        background: #d6623d;
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .rpwz ul{
+        width: 325px;
+        padding-top: 10px;
+    }
+    .rpwz ul li{
+        padding-top: 10px;
+        color: #666;
+        font-size: 14px;
+        padding-left: 20px;
+        border-bottom: 1px dashed #f1f1f1; 
+        height: 30px;
+    }
+    .ggw{
+        background: #d6623d;
+        height: 200px;
+        margin-top: 50px;
+    }
+    .ggw img{
+        width:76px;
+        height: 60px;
+        margin-left: 142px;
+        margin-top: 25px;
+    }
+    .ggw p{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        line-height:46px; 
+    }
+}
