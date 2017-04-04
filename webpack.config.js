@@ -2,12 +2,13 @@ const path = require("path"),
     webpack = require("webpack"),
     HtmlWebpackPlugin = require("html-webpack-plugin"),
     ExtractTextPlugin = require("extract-text-webpack-plugin"),
-    HOST = "0.0.0.0",
+    HOST = "localhost",
     PORT = 4040;
 let commonPlugins = [],
-    cssExtract = process.env.NODE_ENV === "production"
-        ? ExtractTextPlugin.extract({ fallback: "style", use: [ "css", "postcss", "sass" ], })
-        : [ "style", "css", "postcss", "sass" ];
+    cssExtract = process.env.NODE_ENV === "production" ? ExtractTextPlugin.extract({
+        fallback: "style",
+        use: ["css", "postcss", "sass"],
+    }) : ["style", "css", "postcss", "sass"];
 
 module.exports = {
     devServer: {
@@ -18,7 +19,9 @@ module.exports = {
         port: PORT,
         host: HOST,
         open: true,
-        headers: {'Access-Control-Allow-Origin': '*'},
+        headers: {
+            'Access-Control-Allow-Origin': '*'
+        },
     },
     entry: [
         "whatwg-fetch",
@@ -36,18 +39,15 @@ module.exports = {
         moduleExtensions: ["-loader"]
     },
     module: {
-        rules: [
-            {
-                test: /\.(js|jsx)$/,
-                use: ["babel", "eslint"],
-                exclude: /node_modules/,
-            },
-            {
-                test: /\.(scss|sass)$/,
-                use: cssExtract,
-                exclude: /node_modules/,
-            }
-        ]
+        rules: [{
+            test: /\.(js|jsx)$/,
+            use: ["babel", "eslint"],
+            exclude: /node_modules/,
+        }, {
+            test: /\.(scss|sass)$/,
+            use: cssExtract,
+            exclude: /node_modules/,
+        }]
     },
     plugins: []
 };

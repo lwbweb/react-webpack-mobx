@@ -8,7 +8,7 @@ export default class Search extends Component{
           <div className="main-right">
               <div className="seach">
                 <form>
-                  <input type="text" value="请输入关键词" >
+                  <input type="text" value="请输入关键词" />
                   <button type="submit">搜索</button>
                 </form>
               </div>
@@ -27,20 +27,20 @@ export default class Search extends Component{
               <div className="rpwz">
                   <p>热评文章</p>
                   <ul>
-                     <a href="#"><li><img src="images/icon2.gif">如何打造有价值，让人上瘾的的内容</li></a>
-                     <a href="#"><li><img src="images/icon2.gif">如何打造有价值，让人上瘾的的内容</li></a>
-                     <a href="#"><li><img src="images/icon2.gif">如何打造有价值，让人上瘾的的内容</li></a>
-                     <a href="#"><li><img src="images/icon2.gif">如何打造有价值，让人上瘾的的内容</li></a>
-                     <a href="#"><li><img src="images/icon2.gif">如何打造有价值，让人上瘾的的内容</li></a>
-                     <a href="#"><li><img src="images/icon2.gif">如何打造有价值，让人上瘾的的内容</li></a>
-                     <a href="#"><li><img src="images/icon2.gif">如何打造有价值，让人上瘾的的内容</li></a>
-                     <a href="#"><li><img src="images/icon2.gif">如何打造有价值，让人上瘾的的内容</li></a>
-                     <a href="#"><li><img src="images/icon2.gif">如何打造有价值，让人上瘾的的内容</li></a>
-                     <a href="#"><li><img src="images/icon2.gif">如何打造有价值，让人上瘾的的内容</li></a>
+                     <a href="#"><li><img src="images/icon2.gif" />如何打造有价值，让人上瘾的的内容</li></a>
+                     <a href="#"><li><img src="images/icon2.gif" />如何打造有价值，让人上瘾的的内容</li></a>
+                     <a href="#"><li><img src="images/icon2.gif" />如何打造有价值，让人上瘾的的内容</li></a>
+                     <a href="#"><li><img src="images/icon2.gif" />如何打造有价值，让人上瘾的的内容</li></a>
+                     <a href="#"><li><img src="images/icon2.gif" />如何打造有价值，让人上瘾的的内容</li></a>
+                     <a href="#"><li><img src="images/icon2.gif" />如何打造有价值，让人上瘾的的内容</li></a>
+                     <a href="#"><li><img src="images/icon2.gif" />如何打造有价值，让人上瘾的的内容</li></a>
+                     <a href="#"><li><img src="images/icon2.gif" />如何打造有价值，让人上瘾的的内容</li></a>
+                     <a href="#"><li><img src="images/icon2.gif" />如何打造有价值，让人上瘾的的内容</li></a>
+                     <a href="#"><li><img src="images/icon2.gif" />如何打造有价值，让人上瘾的的内容</li></a>
                   </ul>
               </div>
               <div className="ggw">
-                  <img src="images/log.png">
+                  <img src="images/log.png" />
                   <p>卢文博</p>
               </div>
           </div>

@@ -5,17 +5,18 @@ import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
 import {
-    index,
-    header,
-    listall,
-    search,
-    footernav,
-    footer
+    // index,
+    // header,
+    // listall,
+    // search,
+    // footernav,
+    // footer
+    main
 } from './Chunks';
 
 const routes = params => (
-    <Route path="/" getComponent={index}>
-    </Route>
+    <IndexRoute path="/" getComponent={main}>
+    </IndexRoute>
 );
 
 export default { routes };

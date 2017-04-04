@@ -3,41 +3,41 @@
  * Require App Chunk Files
  */
 
-export const index = (location, callback) => {
-    require.ensure([], (require) => {
-        callback(null, require('../pages/Index').default);
-    }, 'index');
-};
+// export const index = (location, callback) => {
+//     require.ensure([], (require) => {
+//         callback(null, require('../pages/Index').default);
+//     }, 'index');
+// };
 
-export const header = (location, callback) => {
-    require.ensure([], (require) => {
-        callback(null, require('../Components/Header').default);
-    }, 'header');
-};
+// export const header = (location, callback) => {
+//     require.ensure([], (require) => {
+//         callback(null, require('../Components/Header').default);
+//     }, 'header');
+// };
 
-export const listall = (location, callback) => {
-    require.ensure([], (require) => {
-        callback(null, require('../Components/Listall').default);
-    }, 'listall');
-};
+// export const listall = (location, callback) => {
+//     require.ensure([], (require) => {
+//         callback(null, require('../Components/Listall').default);
+//     }, 'listall');
+// };
 
-export const search = (location, callback) => {
-    require.ensure([], (require) => {
-        callback(null, require('../Components/Search').default);
-    }, 'search');
-};
+// export const search = (location, callback) => {
+//     require.ensure([], (require) => {
+//         callback(null, require('../Components/Search').default);
+//     }, 'search');
+// };
 
-export const footernav = (location, callback) => {
-    require.ensure([], (require) => {
-        callback(null, require('../Components/FooterNav').default);
-    }, 'footernav');
-};
+// export const footernav = (location, callback) => {
+//     require.ensure([], (require) => {
+//         callback(null, require('../Components/FooterNav').default);
+//     }, 'footernav');
+// };
 
-export const footer = (location, callback) => {
-    require.ensure([], (require) => {
-        callback(null, require('../Components/Footer').default);
-    }, 'footer');
-};
+// export const footer = (location, callback) => {
+//     require.ensure([], (require) => {
+//         callback(null, require('../Components/Footer').default);
+//     }, 'footer');
+// };
 
 export const main = (location, callback) => {
     require.ensure([], (require) => {
