@@ -1,22 +1,12 @@
-/**
- * Created by Min on 2017/2/9.
- */
-import React from 'react';
+﻿import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
-import {
-    // index,
-    // header,
-    // listall,
-    // search,
-    // footernav,
-    // footer
-    main
-} from './Chunks';
+import { index, header, listall, search, footernav, footer } from './Chunks';
 
 const routes = params => (
-    <IndexRoute path="/" getComponent={main}>
-    </IndexRoute>
-);
+	<Route path="/" getComponent={index}>
+        <IndexRoute getComponent={index} />
+    </Route>
+    );
 
 export default { routes };

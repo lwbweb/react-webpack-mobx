@@ -119,7 +119,7 @@ if (process.env.NODE_ENV === "production") {
             debug: true,
             options: {
                 eslint: {
-                    configFile: './.eslintrc',
+                    configFile: './.eslintrc'
                 },
             }
         }),
