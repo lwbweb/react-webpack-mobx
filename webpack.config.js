@@ -3,7 +3,7 @@ const path = require("path"),
     HtmlWebpackPlugin = require("html-webpack-plugin"),
     ExtractTextPlugin = require("extract-text-webpack-plugin"),
     HOST = "localhost",
-    PORT = 4040;
+    PORT = 8888;
 let commonPlugins = [],
     cssExtract = process.env.NODE_ENV === "production" ? ExtractTextPlugin.extract({
         fallback: "style",

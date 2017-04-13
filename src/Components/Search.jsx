@@ -5,13 +5,11 @@ export default class Search extends Component {
     render() {
         return (
             <div className="search-container">
-                <div className="main-right">
-                    <div className="seach">
-                      <form>
-                          <input type="text" value="请输入关键词" />
-                          <button type="submit">搜索</button>
-                      </form>
-                    </div>
+                <div className="seach">
+                    <form>
+                        <input type="text" value="请输入关键词" />
+                        <button type="submit">搜索</button>
+                    </form>
                 </div>
                 <div className="gjc">
                     <p>主要内容：</p>
@@ -28,20 +26,20 @@ export default class Search extends Component {
                 <div className="rpwz">
                     <p>热评文章</p>
                     <ul>
-                        <a><li><img src="src/images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
-                        <a><li><img src="src/images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
-                        <a><li><img src="src/images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
-                        <a><li><img src="src/images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
-                        <a><li><img src="src/images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
-                        <a><li><img src="src/images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
-                        <a><li><img src="src/images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
-                        <a><li><img src="src/images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
-                        <a><li><img src="src/images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
-                        <a><li><img src="src/images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
+                        <a><li><img src="src/Images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
+                        <a><li><img src="src/Images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
+                        <a><li><img src="src/Images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
+                        <a><li><img src="src/Images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
+                        <a><li><img src="src/Images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
+                        <a><li><img src="src/Images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
+                        <a><li><img src="src/Images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
+                        <a><li><img src="src/Images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
+                        <a><li><img src="src/Images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
+                        <a><li><img src="src/Images/icon2.gif" alt="" />如何打造有价值，让人上瘾的的内容</li></a>
                     </ul>
                 </div>
                 <div className="ggw">
-                    <img src="src/images/log.png" alt="" />
+                    <img src="src/Images/log.png" alt="" />
                     <p>卢文博</p>
                 </div>
                 <div style={{ clear: 'both' }} />

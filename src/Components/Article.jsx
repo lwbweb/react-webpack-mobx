@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import '../Style/Listall';
 
-export default class Listall extends Component {
+export default class Article extends Component {
     render() {
         return (
             <div className="listall-container">
                 <div className="tj">
-                    <a><h2>web前端开发工程师</h2></a>
-                    <p>一个web前端开发工程师需要具备的技能，包括：html、css、一种css框架（bootstrap）、一种javascript框架（jquery）。一个成功的人，实力+机遇，缺一不可。千里马常有、而伯乐不常有，待在一个小的公司，所涉及的范围狭小，即使俩三年经验，依旧如故，不能突破。</p>
+                    <a><h2>很难受</h2></a>
+                    <p>此博客文章可能来自转载、但会注明出处和申明转载，此博客为个人react技术栈的实践作品，接受一切善意的建议，拒绝一切恶意与无聊的瞎bb、</p>
                 </div>
                 <div className="lb">
                     <a>
@@ -72,7 +72,7 @@ export default class Listall extends Component {
                 <div className="lb">
                     <a>
                         <div className="lbtp">
-                            <img src="src/Images/123.png" alt=""/>
+                            <img src="src/Images/123.png" alt="" />
                         </div>
                         <div className="lbjs">
                             <h2>如何打造有价值，让人上瘾的的内容</h2>
@@ -86,3 +86,4 @@ export default class Listall extends Component {
         );
     }
 }
+

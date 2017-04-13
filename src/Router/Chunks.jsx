@@ -10,10 +10,34 @@ export const header = (location, callback) => {
     }, 'header');
 };
 
+export const memain = (location, callback) => {
+    require.ensure([], (require) => {
+        callback(null, require('../Components/Memain').default);
+    }, 'memain');
+};
+
 export const listall = (location, callback) => {
     require.ensure([], (require) => {
         callback(null, require('../Components/Listall').default);
     }, 'listall');
+};
+
+export const article = (location, callback) => {
+    require.ensure([], (require) => {
+        callback(null, require('../Components/Article').default);
+    }, 'article');
+};
+
+export const essay = (location, callback) => {
+    require.ensure([], (require) => {
+        callback(null, require('../Components/Essay').default);
+    }, 'essay');
+};
+
+export const message = (location, callback) => {
+    require.ensure([], (require) => {
+        callback(null, require('../Components/Message').default);
+    }, 'message');
 };
 
 export const search = (location, callback) => {
@@ -33,4 +57,3 @@ export const footer = (location, callback) => {
         callback(null, require('../Components/Footer').default);
     }, 'footer');
 };
-

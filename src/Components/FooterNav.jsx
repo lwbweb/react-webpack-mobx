@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import '../Style/FooterNav';
 
 export default class FooterNav extends Component {
@@ -10,10 +11,10 @@ export default class FooterNav extends Component {
                         <div className="cong-left" />
                         <div className="cont-right">
                             <ul>
-                                <a><li>个人简介</li></a>
-                                <a><li>经验</li></a>
-                                <a><li>热文</li></a>
-                                <a><li>留言</li></a>
+                                <Link to="/me"><li>个人简介</li></Link>
+                                <Link to="/me"><li>经验</li></Link>
+                                <Link to="/me"><li>热文</li></Link>
+                                <Link to="/me"><li>留言</li></Link>
                             </ul>
                             <br />
                             <p>装逼、我们是认真的</p>
