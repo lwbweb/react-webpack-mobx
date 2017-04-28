@@ -16,7 +16,6 @@
     },
     "rules": {
         "no-tabs":"off",
-        "linebreak-style": ["error", "windows"],
         "arrow-parens": [1, "as-needed", { "requireForBlockBody": true }],
         "indent": ["error", 4],
         "max-len": [1, 190, 2, {"ignoreComments": true}],

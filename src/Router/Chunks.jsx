@@ -40,6 +40,12 @@ export const message = (location, callback) => {
     }, 'message');
 };
 
+export const detail = (location, callback) => {
+    require.ensure([], (require) => {
+        callback(null, require('../Components/Detail').default);
+    }, 'detail');
+};
+
 export const search = (location, callback) => {
     require.ensure([], (require) => {
         callback(null, require('../Components/Search').default);
